@@ -1,5 +1,5 @@
-all: main.o
-	gcc -o a.out main.o
+all: main.o mystructs.o
+	gcc -o a.out main.o mystructs.o
 
 main.o: main.c mystructs.o
 	gcc -c main.c
